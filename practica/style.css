@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+div{
+    padding: 20px
+} 
+/* padding es un margen interno 
+*{ } es "para todo" */
+#main{
+    background-color: bisque;
+}
+nav{
+    background-color: lightgrey;
+    display: flex;
+} 
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-left: 20px;
+    list-style: none;
+}
+nav li:hover{
+    color: red;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav img{
+    display: flex;
+    width: 5vw;
+    height: auto;
+} 
+/* vw: viewwidth: toma la medida y decide el ancho */
+
+.menuButton{
+    display: flex;
+    align-items: center;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    width: 100px;
+}
