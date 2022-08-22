@@ -3,3 +3,13 @@ p {
     width: 300px;
     border: 1px solid black;
 }
+body{
+    background-color: rgb(192, 120, 37);
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px dotted black;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+} 
+/* MARGIN: del borde hacia afuera 
+PADDING: del borde hacia adentro es padding */
