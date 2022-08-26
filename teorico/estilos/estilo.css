@@ -4,6 +4,8 @@ p {
     border: 1px solid black;
 }
 body{
+    background-image: url("../img/fondo_palmeras.jpeg");
+    background-repeat: no-repeat;
     background-color: rgb(192, 120, 37);
     margin-left: 20%;
     margin-right: 20%;
@@ -11,6 +13,7 @@ body{
     padding: 10px 10px 10px 10px;
     font-family: sans-serif;
 } 
+
 /* MARGIN: del borde hacia afuera. Con 20% se adapta a la pagina.
 PADDING: del borde hacia adentro es padding 
 1ero arriba, 2do derecha, 3ero abajo, 4to izq*/
