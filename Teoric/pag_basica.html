@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" 
+        content="width=device-width",
+        initial-scale="1.0">
+		<title>Título de la ventana de la página</title>
+		<link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+        <h1>Esta es mi primera página web</h1>
+        <a href="http://www.ucema.edu.ar"
+            title="Universidad del CEMA" 
+            target="_blank" tabindex="1"> <!-- title, target y tabindex es opcional _blank sirve para q cuando abre la pagina abre una nueva pestaña 
+                tabindex es para cuando usas formularios, le indico que vaya al 1 -->
+            Ir a UCEMA
+        </a>
+
+        <img src="img/logo.png" alt="logo ucema">  <!-- hice una carpeta img donde puse la imagen, alt quiere decir que cuando no carga la imagen te pone ese texto -->
+        <video src="video/nombre.mp4" width="30%" controls> 
+        </video>
+        <iframe src="enlace" width="30%" controls> <!-- para poner video con el link -->
+        </video>
+
+        <audio src="audio/nombre.mp3" controls> <!-- controls muestra al usuario los controles: play, atras, adelantar -->
+        </audio>
+        <p>
+            Este es el ejemplo
+            que <strong>strong pone el texto en negrita</strong>
+            <em>le da cursiva</em>
+        </p> <!-- el parrafo se muestra todo en la misma linea si no uso <br> -->
+        <h3> Lista equipos de futbol </h3>
+        <ul>
+            <li><a href="https://cariverplate.com.ar/"> River Plate </a></li>
+            <li><a href="https://www.bocajuniors.com.ar/"> Boca Juniors </a></li>
+            <li><a href="https://clubaindependiente.com.ar/"> Independiente </a></li>
+        </ul>
+
+        <table>
+            <thead> <!-- encabezado-->
+                <tr>
+                    <th>País</th>
+                    <th>Capital</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Argentina</td>
+                    <td>Ciudad de Buenos Aires</td>
+                </tr>
+                <tr>
+                    <td>Washington</td>
+                    <td>Estados Unidos</td>
+                </tr>
+            </tbody>
+        </table>
+ 
+    </body>
+</html>
+
