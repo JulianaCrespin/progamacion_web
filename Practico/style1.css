@@ -4,8 +4,12 @@ body{
 div{
     padding: 20px
 } 
-/* padding es un margen interno 
-*{ } es "para todo" */
+/* 
+
+padding es un margen interno 
+*{ } es "para todo" 
+
+*/
 #main{
     background-color: bisque;
 }
