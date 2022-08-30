@@ -1,0 +1,9 @@
+.accordion-button:not(.collapsed){
+    background-color: darkseagreen;
+    color: antiquewhite;
+}
+
+/* .accordion-button:not(.collapsed){
+    background-color: darkseagreen !important;
+    color: antiquewhite;
+} */
