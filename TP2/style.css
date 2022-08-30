@@ -1,0 +1,53 @@
+body{
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 50px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+.clases_online{
+    margin-right: 100px;
+}
+
+.modalidad{
+    background-color: khaki;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.formacion{
+    background-color: khaki;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#tu_formacion{    
+    color: blueviolet;
+}
+
+.recomendaciones{
+    background-color: khaki;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.novedades{
+    background-color: beige;
+    padding: 20px;
+}
+.certificados{
+    background-color: khaki;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+#certificados_profesionales{
+    color: darkblue;
+    font-size: large;
+}
+
+footer{
+    padding: 20px;
+    background-color: palevioletred;
+}

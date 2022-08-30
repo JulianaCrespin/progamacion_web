@@ -3,63 +3,173 @@
   <head>
     <meta charset="utf-8">
     <title>Educatex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
   </head>
 <body>
   <header>
       <h1>Educatex</h1>
-  </header>
-  <nav>
-      <a href="#">Cursos y Carreras</a>
-      <a href="#">Comunidad</a>
-      <a href="#">Masterclass</a>
-      <a href="#">Nosotros</a>
-  </nav>
+      <img src="./assets/img/logo.jpg" class="img-thumbnail" alt="logo" width="100px"> 
 
-  <div class="row">
-      <aside>
-          <h3>Novedades</h3>
-          <li>Nueva plataforma</li>
-          <li>Nueva funcion de chat</li>
-          <li>Noticias</li>  
-          <li>Nuevo</li>                    
-              
-          </il>
+  </header>
+  <div class="menu">
+  <div class="container">
+    <div class="row">
+        <div class="col" style="color: white; background-color: black;" >
+            Cursos y Carreras
+        </div>
+        <div class="col" style="color: white; background-color: black;" >
+            Comunidad
+            </div>
+        <div class="col" style="color: white; background-color: black;" >
+                Masterclass
+        </div>
+        <div class="col" style="color: white; background-color: black;" >
+            Nosotros
+        </div>        
+    </div>
+  </div>
+    </div>
+
+
+      <aside class="novedades">
+          <div class="container">
+              <div class="col">
+              <h3>Novedades</h3>
+          <button type="button" class="btn btn-primary">Diseño UX/UI</button><br>
+          <button type="button" class="btn btn-primary">Experiencia UCLA</button><br>
+          <button type="button" class="btn btn-primary">Q&A con McKinsey</button><br>
+          <button type="button" class="btn btn-primary">Cursos 50% Off</button>
+            </div>
           </aside>
-          <section class="section1">
+          <section class="clases_online">
               <h1>Unite a la comunidad de aprendizaje online en vivo más grande de Latinoamérica</h1>
               <p>Clases online en vivo dictadas por expertos de la industria, enfoque 100% práctico, mentorías personalizadas y acceso a una comunidad de +150.000 estudiantes.</p>
               <img src="./assets/img/computadora_clase_online.jpg" alt="educatex" width="500px">
               
               </section>
           </div>
-          <section class="secciones">
+          <section class="modalidad">
               <h2>Modalidad 100% Online</h2>
               <h4>Estudiá remoto, desde la comodidad de tu casa.</h4>
               <img src="./assets/img/sonriendo_online.jpg" width="300">
           </section>
 
-          <section class="secciones">
-              <h2>Tu formación nos importa</h2>
+          <section class="formacion">
+              <h2 id="tu_formacion">Tu formación nos importa</h2>
                   <p>Es por eso que contamos con los mejores profesionales. ipsum dolor sit amet consectetur, adipisicing elit. Nam itaque cupiditate sapiente illo amet, deserunt delectus quasi harum numquam adipisci placeat atque in porro exercitationem autem consequatur, suscipit, quisquam quia.</p>
-          </section>
-          <section class="secciones">
-              <h2>De la comunidad de Educatex</h3>
-                  <h3>Más de 87 millones de personas ya aprenden en Educatex.</h2>
-                          <h4>Cristina B.</h4> 
-                        <img src="./assets/img/cristina_desarrollador.jpg" width="300px"> 
-                        <h5><strong>Desarrollador web</strong></h5>
-                        <h5>Brasil</h5>
-                        <p>"No solo mi currículum luce increíble, repleto de nombres y logotipos de instituciones de nivel mundial, sino que estos certificados también me acercan a mis objetivos profesionales al validar las habilidades que he aprendido"</p> 
-          </section>
+                  <img src="./assets/img/robotica.jpg" class="img-fluid" width="300">
+            </section>
+
+        <section class="certificados">
+            <h5 id="certificados_profesionales">Certificados profesionales</h5>
+            <h3>Prepárate para una carrera profesional en demanda.</h3>
+            <h5>Incursiona en un nuevo campo, como la Tecnología de la Información o la Ciencia de los Datos. No es necesario tener experiencia previa para comenzar.</h5>
+        </section>
+
+            <div class="recomendaciones"><h3>De la comunidad de Educatex</h3>
+                <h4>Más de 87 millones de personas ya aprenden en Educatex.</h4>
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="carina">
+              <div class="carousel-item active">
+                <img src="./assets/img/carina.jpg" class="d-block w-100" alt="Carina developer">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Carina B</h4>
+                  <h5>Desarrollador Web</h5>
+                  <p>No solo mi currículum luce increíble, repleto de nombres y logotipos de instituciones de nivel mundial, sino que estos certificados también me acercan a mis objetivos profesionales al validar las habilidades que he aprendido</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="pablo">
+                <img src="./assets/img/pablo2.jpg" class="d-block w-100" alt="Pablo data scientist">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Pablo C</h4>
+                  <h5>Data Scientist</h5>
+                  <p>Ingresar en el mundo de IT siempre ha sido inalcanzable. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, omnis enim doloribus delectus excepturi nulla, voluptatibus odio ex quidem quis at vel minima temporibus quisquam fuga veniam eaque ipsa ullam.</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carlos">
+                <img src="./assets/img/Carlos.jpg" class="d-block w-100" alt="Carlos">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4>Carlos G</h4>
+                  <h5>Graduado en Finanzas</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error inventore dolore odio? Saepe, soluta dicta dolor hic maxime rerum error sapiente, alias earum sunt, a suscipit magnam modi ipsam!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
           
           <footer>
-              <h2>Contacto</h2>
-              
-              <li>Sobre nosotros</li>
-              <li>Dirección</li>
-              
-              <img id=img src="./assets/img/gatito.jpg" width="100">
+            <div class="registrarse">
+            <h5>Registrate ya y empezá a ser parte de la comunidad Educatex</h5>
+            <form class="row g-3">
+                <div class="col-md-4">
+                  <label for="validationDefault01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationDefault01" value="Juan" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationDefault02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="validationDefault02" value="Perez" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationDefaultUsername" class="form-label">Nombre de usuario</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                    <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationDefault03" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationDefault04" class="form-label">Provincia</label>
+                  <select class="form-select" id="validationDefault04" required>
+                    <option selected disabled value="">Seleccionar</option>
+                    <option>San Juan</option>
+                    <option>La Rioja</option>
+                    <option>Catamarca</option>
+                    <option>Santiago del Estero</option>
+                    <option>Santa Fe</option>
+                    <option>Córdoba</option>
+                    <option>San Luis</option>
+                    <option>Mendoza</option>
+                    <option>La Pampa</option>
+                    <option>Buenos aires</option>
+                    <option>Santa Cruz</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationDefault05" class="form-label">Correo electrónico</label>
+                  <input type="text" class="form-control" id="validationDefault05" required>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      Quiero recibir promociones y novedades a mi correo
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
         </footer>
 </body>
 </html>
