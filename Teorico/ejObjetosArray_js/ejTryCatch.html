@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let cancelar = prompt("Ir al catch");
+    try {
+        if(cancelar == "si") // || es or  // if(cancelar == "si" || cancelar == "") // || es or
+
+            throw "Cancelamos la ejecución";
+
+        if(cancelar == "")
+        throw "Está vacío el campo";
+
+        console.log("Finalizamos OK"); // va a entrar si el bloque no se ejecuta
+    } catch (e) {
+        console.log("Error: ", e); // e es el evento que recibe, el tipo de error
+    }
+</script>
+</html>
